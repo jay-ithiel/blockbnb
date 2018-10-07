@@ -1,3 +1,9 @@
+/**
+ * This script is the development webpack configuration
+ * 
+ * @author @jay_ithiel
+ */
+
 const { DefinePlugin, HotModuleReplacementPlugin } = require('webpack');
 const merge = require('webpack-merge');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');

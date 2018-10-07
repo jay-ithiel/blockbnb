@@ -1,3 +1,10 @@
+/**
+ * This script is a common webpack configuration used as a foundation
+ * to merge development & production webpack configurations
+ * 
+ * @author @jay_ithiel
+ */
+
 const path = require('path');
 const { ContextReplacementPlugin, NamedChunksPlugin } = require('webpack');
 
